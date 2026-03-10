@@ -28,12 +28,12 @@ body {
 
 h1 {
   margin: 0 0 16px;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
 }
 
 h2 {
   margin: 20px 0 8px;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 .student-form {
@@ -57,16 +57,16 @@ label {
 }
 
 input {
-  padding: 6px 8px;
+  padding: 10px 8px;
   border-radius: 3px;
-  border: 1px solid #cccccc;
+  border: 2px solid #000000;
   font-size: 0.95rem;
 }
 
 .add-button {
   padding: 7px 16px;
   border-radius: 3px;
-  border: 1px solid #1976d2;
+  border: 2px solid #000000;
   background-color: #1976d2;
   color: #ffffff;
   font-size: 0.9rem;
@@ -104,25 +104,26 @@ input {
 .student-details {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 15px;
 }
 
 .student-name {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .student-department {
-  font-size: 0.9rem;
-  color: #555555;
+  font-size: 0.95rem;
+  color: #0a3516;
+  font-weight: 700;
 }
 
 .delete-button {
-  padding: 4px 10px;
-  border-radius: 3px;
+  padding: 4px 15px;
+  border-radius: 6px;
   border: 1px solid #d32f2f;
   background-color: #ffffff;
   color: #d32f2f;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   cursor: pointer;
 }
 
