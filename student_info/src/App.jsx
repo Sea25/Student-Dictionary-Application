@@ -7,7 +7,6 @@ const App = () => {
 
   const handleAddStudent = (event) => {
     event.preventDefault()
-
     const trimmedName = name.trim()
     const trimmedDepartment = department.trim()
 
